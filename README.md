@@ -18,5 +18,5 @@ The posted CodeBook.md describes the data, variables and transformations perform
 
 The posted run_Analysis.R reads in the original source data files used, combines “test” and “train” data groups into one labeled file, performs some cleanup to make the file and data easier to read, then, for each measurement of mean or standard deviation, computes the average result for each subject for each activity.  The resulting file of 180 (30 participants, 6 activities each) rows is then saved out as averages_df.csv.
 
-This is a stand-alone script that can be run from the same directory as the source data is stored locally.
+This is a stand-alone script that should be run from the same directory as the source data is stored locally.
 
